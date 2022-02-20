@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    background-color: #fff;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+}
+
+
+header {
+    background-color: #F8E2CF;
+    margin: auto;
+    height: 105px;
+    padding: 10px;
+}
+
+header h1 {
+    color: #B4846C;
+    font-family: 'El Messiri', sans-serif;
+    text-align: center;
+    margin: 20px auto;
+    position: absolute;
+    left: 230px;
+}
+
+.nav-bar {
+    font-family: 'El Messiri', sans-serif;
+    font-size: 22px;
+    display: flex;
+    color: #9E7777;
+    position: absolute;
+    right: 220px;
+    top: 40px;
+    cursor: pointer;
+}
+
+.nav2 {
+    margin: auto 30px;
+}
+
+.main {
+    margin-left: 210px;
+    padding-top: 60px;
+    padding-bottom: 15px;
+}
+
+footer {
+    background-color: #FDF6F0;
+    position: relative;
+    height: 65px;
+    bottom: -30px;
+    width: 100%;
+    text-align: center;
+}
+
+footer p {
+    color: #FBC6A4;
+    font-family: 'Varela Round', sans-serif;
+    margin: 22px;
+    position: relative;
+    top: 23px;
+}
+
+.cloth-card {
+    position: relative;
+    display: inline-block;
+    margin: 12px;
+}
+
+img {
+    width: 350px;
+    height: 350px;
+    border-radius: 0.7rem;
+}
+
+button {
+    display: block;
+    width: 250px;
+    height: 35px;
+    border-width: 0;
+    border-radius: 5px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 15px;
+    position: absolute;
+    left: 50px;
+    bottom: 60px;
+    cursor: pointer;
+}
+
+.img-btn:not(:hover) button {
+    display: none;
+  }
+
+.cloth-name {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    position: relative;
+    left: 25px;
+}
+
+.heart-icon {
+    position: absolute;
+    right: 60px;
+    cursor: pointer;
+}
+
+.full-heart-icon {
+    position: absolute;
+    right: 60px;
+    cursor: pointer;
+}
